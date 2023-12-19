@@ -1,0 +1,55 @@
+name: xchange_net
+description: Barter system App built in flutter.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.5
+  flutter_native_splash: ^1.1.8+4
+  animated_text_kit: ^4.2.1
+  flutter_signin_button: ^2.0.0
+  firebase_core: ^2.7.0
+  firebase_auth: ^4.2.9
+  firebase_database: ^10.0.15
+  google_sign_in: ^6.0.2
+  quiver: ^3.2.1
+  cloud_firestore: ^4.4.4
+  get: ^4.6.5
+  bottom_navy_bar: ^6.0.0
+  smooth_page_indicator: ^1.0.0+2
+  flutter_rating_bar: ^4.0.1
+  #  font_awesome_flutter: ^10.3.0
+  font_awesome_flutter: ^9.0.0
+  animations: ^2.0.7
+  youtube_player_flutter: ^8.1.2
+  image_picker: ^0.8.7
+  firebase_storage: ^11.0.15
+  shared_preferences: ^2.0.18
+  share: ^2.0.4
+  path_provider: ^2.0.5
+  intl: ^0.17.0
+  provider: ^6.0.5
+  uuid: ^3.0.4
+#  search_page: ^2.3.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.1
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/
+
